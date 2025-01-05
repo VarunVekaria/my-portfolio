@@ -1,6 +1,6 @@
 export default function Experience() {
     return (
-      <div className="bg-blue-900 text-white py-10">
+      <div className="text-white py-10" style={{ backgroundColor: "#001A6E" }}>
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-6">Experience</h2>
           <div className="bg-white text-black rounded-lg shadow-md p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -36,10 +36,10 @@ export default function Experience() {
               <h4 className="text-lg font-bold mb-2">TechStack</h4>
               <ul className="list-none text-sm leading-relaxed">
                 <li>
-                  <strong>Languages/Frameworks:</strong> Python (Flask), Next.js
+                  <strong>Languages/Frameworks:</strong> JavaScript, Python(Flask), Next.js, ReactJS, Node.js, MongoDB
                 </li>
                 <li>
-                  <strong>Tools:</strong> Postman, AWS, OpenAI
+                  <strong>Tools:</strong> Postman, AWS, OpenAI, Beautiful Soup, Selenium, Docker
                 </li>
                 <li>
                   <strong>Other Skills:</strong> Software Development Life Cycle,

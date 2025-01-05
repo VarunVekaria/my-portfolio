@@ -19,10 +19,10 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="bg-blue-700 text-white py-4 fixed top-0 left-0 w-full z-50">
+      <nav className="text-white py-4 fixed top-0 left-0 w-full z-50" style={{ backgroundColor: "#074799" }}>
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Logo */}
-          <div className="text-xl font-bold">MyPortfolio</div>
+          <div className="text-xl font-bold">VV's Portfolio</div>
 
           {/* Hamburger Menu Button */}
           <button
@@ -49,7 +49,7 @@ export default function Navbar() {
           <div
             className={`${
               isOpen ? "block" : "hidden"
-            } md:flex md:space-x-10 uppercase font-light tracking-wide`}
+            } md:flex md:space-x-10 uppercase font-light tracking-custom`}
           >
             <button
               onClick={() => scrollToSection("about")}

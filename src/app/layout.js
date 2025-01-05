@@ -7,6 +7,8 @@ import { Poppins } from 'next/font/google';
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Publications from "./components/Publications";
+import Experience2 from "./components/Experience2";
+import Experience3 from "./components/Experience3";
 
 // Load the Poppins font
 const poppins = Poppins({
@@ -34,6 +36,8 @@ export default function RootLayout({ }) {
         </div>
         <div id="experience" className="bg-white text-black">
           <Experience />
+          <Experience2 />
+          <Experience3 />
         </div>
         <div id="projects" className="bg-white text-black">
           <Projects />

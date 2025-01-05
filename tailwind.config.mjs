@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+      custom: "5px", // Add your custom value
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
