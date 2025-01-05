@@ -1,7 +1,6 @@
-"use client"; // Add this at the top of the file
+"use client"; // Mark the component as a client component
 
-import { useState } from 'react';
-import Link from 'next/link';
+import { useState } from "react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,9 +9,17 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setIsOpen(false); // Close the menu on mobile after clicking
+    }
+  };
+
   return (
     <div>
-      <nav className="bg-blue-700 text-white py-4">
+      <nav className="bg-blue-700 text-white py-4 fixed top-0 left-0 w-full z-50">
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Logo */}
           <div className="text-xl font-bold">MyPortfolio</div>
@@ -33,7 +40,7 @@ export default function Navbar() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'}
+                d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
               />
             </svg>
           </button>
@@ -41,30 +48,33 @@ export default function Navbar() {
           {/* Links */}
           <div
             className={`${
-              isOpen ? 'block' : 'hidden'
+              isOpen ? "block" : "hidden"
             } md:flex md:space-x-10 uppercase font-light tracking-wide`}
           >
-            <Link href="/" className="block md:inline-block hover:underline">
+            <button
+              onClick={() => scrollToSection("about")}
+              className="block md:inline-block hover:underline"
+            >
               About
-            </Link>
-            <Link
-              href="/experience"
+            </button>
+            <button
+              onClick={() => scrollToSection("experience")}
               className="block md:inline-block hover:underline"
             >
               Experience
-            </Link>
-            <Link
-              href="/projects"
+            </button>
+            <button
+              onClick={() => scrollToSection("projects")}
               className="block md:inline-block hover:underline"
             >
               Projects
-            </Link>
-            <Link
-              href="/publications"
+            </button>
+            <button
+              onClick={() => scrollToSection("publications")}
               className="block md:inline-block hover:underline"
             >
               Publications
-            </Link>
+            </button>
           </div>
         </div>
       </nav>

@@ -25,13 +25,22 @@ export default function RootLayout({ }) {
       <body
         className={`${poppins.className} scroll-smooth`}
       >
-        <Navbar />
-        <About />
-        <TechStack />
-        <Experience /> 
-        <Projects />
-        <Publications />
-       
+         <Navbar />
+        <div id="about" className="bg-blue-900 text-white">
+          <About />
+        </div>
+        <div id="about" className="bg-blue-900 text-white">
+          <TechStack />
+        </div>
+        <div id="experience" className="bg-white text-black">
+          <Experience />
+        </div>
+        <div id="projects" className="bg-white text-black">
+          <Projects />
+        </div>
+        <div id="publications" className="bg-blue-900 text-white">
+          <Publications />
+        </div>
       </body>
     </html>
   );
