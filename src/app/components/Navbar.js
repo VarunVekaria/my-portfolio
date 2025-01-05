@@ -22,8 +22,13 @@ export default function Navbar() {
       <nav className="text-white py-4 fixed top-0 left-0 w-full z-50" style={{ backgroundColor: "#074799" }}>
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Logo */}
-          <div className="text-xl font-bold">VV's Portfolio</div>
-
+          <div className="flex items-center">
+            <img
+              src="/images/vector.svg" // Path to your SVG file
+              alt="Logo"
+              className="h-8 w-auto" // Adjust height and width as needed
+            />
+          </div>
           {/* Hamburger Menu Button */}
           <button
             className="md:hidden focus:outline-none"
