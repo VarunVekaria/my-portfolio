@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Publications from "./components/Publications";
 import Experience2 from "./components/Experience2";
 import Experience3 from "./components/Experience3";
+import Projects2 from "./components/Projects2";
 
 // Load the Poppins font
 const poppins = Poppins({
@@ -41,6 +42,7 @@ export default function RootLayout({ }) {
         </div>
         <div id="projects" className="bg-white text-black">
           <Projects />
+          <Projects2 />
         </div>
         <div id="publications" className="bg-blue-900 text-white">
           <Publications />

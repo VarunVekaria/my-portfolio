@@ -32,7 +32,6 @@ export default function Publications() {
                 <a
                   href={publication.link}
                   target="_blank"
-                  rel="noopener noreferrer"
                   className="hover:underline"
                   style={{ color: "#F26B0F" }}
                 >
