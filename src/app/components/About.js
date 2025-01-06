@@ -74,7 +74,7 @@ export default function About() {
         >
           A creative Software Developer, deeply interested in the
           fin-tech sector and passionate about leveraging technology to analyze data. I give
-          priority to user-experience with my creativity side, giving me
+          priority to user-experience, with my creative side giving me
           an edge. Always excited to take on challenges!
         </div>
         <div
