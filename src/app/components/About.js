@@ -72,17 +72,14 @@ export default function About() {
           className="text-lg leading-relaxed text-justify pt-2"
           style={{ textAlign: "justify" }}
         >
-          A creative Software Developer, deeply interested in the
-          fin-tech sector and passionate about leveraging technology to analyze data. I give
-          priority to user-experience, with my creative side giving me
-          an edge. Always excited to take on challenges!
+         An innovative Software Developer with a strong interest in the fintech sector and a passion for leveraging technology to analyze data. I prioritize delivering exceptional user experiences, drawing on my creative instincts to gain a competitive edge. Eager to embrace challenges and drive impactful solutions!
         </div>
         <div
           className="text-md leading-relaxed py-10 tracking-custom"
           style={{ textAlign: "justify", color:"#F26B0F" }}
         >
-          Currently, I am: 
-          <p></p>Leetcoding, learning JAVA OOPs, AWS, Docker, and
+          Currently, focused on: 
+          <p></p>Leetcoding, learning AWS, Docker, and
           Kubernetes.
         </div>
         <div className="mt-8">
