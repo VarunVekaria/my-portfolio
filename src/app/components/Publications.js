@@ -35,7 +35,7 @@ export default function Publications() {
                   className="hover:underline"
                   style={{ color: "#F26B0F" }}
                 >
-                  Link - {publication.link}
+                  Link
                 </a>
               </div>
             ))}
