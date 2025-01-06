@@ -17,16 +17,16 @@ export default function Projects2() {
       techStack: ["Neural Network Architecture", "Keras", "Bot Chase Game"],
     },
     {
-      title: "Project 3",
-      image: "/path/to/image3.png",
-      github: "https://github.com/username/project3",
-      techStack: ["Python", "Django", "PostgreSQL"],
+      title: "Bot: Grid Fire Escape",
+      image: "/images/bot1.png",
+      github: "https://github.com/VarunVekaria/bot_traverse",
+      techStack: ["Python", "Path Finding Algorithms", "Pygame"],
     },
     {
-      title: "Project 4",
-      image: "/path/to/image4.png",
-      github: "https://github.com/username/project4",
-      techStack: ["Node.js", "Express", "MongoDB"],
+      title: "RAG Project - in the works",
+      image: "images/rag.png",
+      github: "https://github.com/VarunVekaria",
+      techStack: [""]
     },
   ];
 

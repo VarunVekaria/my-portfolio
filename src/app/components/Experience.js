@@ -36,7 +36,7 @@ export default function Experience() {
               <h4 className="text-lg font-bold mb-2">TechStack</h4>
               <ul className="list-none text-sm leading-relaxed">
                 <li>
-                  <strong>Languages/Frameworks:</strong> JavaScript, Python(Flask), Next.js, ReactJS, Node.js, MongoDB
+                  <strong>Languages/Frameworks:</strong> JavaScript, Flask, Next.js, ReactJS, Node.js, MongoDB
                 </li>
                 <li>
                   <strong>Tools:</strong> Postman, AWS, OpenAI, Beautiful Soup, Selenium, Docker
