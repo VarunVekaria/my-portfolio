@@ -79,7 +79,7 @@ export default function About() {
           style={{ textAlign: "justify", color:"#F26B0F" }}
         >
           Currently, focused on: 
-          <p></p>Leetcoding, learning AWS, Docker, and
+          <p></p>Leetcoding, AWS, Docker, and
           Kubernetes.
         </div>
         <div className="mt-8">
