@@ -68,6 +68,8 @@ export default function About() {
         >
           Hey, this is Varun Vekaria!
         </h1>
+        <h3 className="text-2xl font-semibold mb-4">Software Developer</h3>
+        <h4 className="text-xl font-semibold mb-4">MS CS @Rutgers University - New Brunswick</h4>
         <div
           className="text-lg leading-relaxed text-justify pt-2"
           style={{ textAlign: "justify" }}
