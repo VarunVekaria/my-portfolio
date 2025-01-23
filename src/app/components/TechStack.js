@@ -24,8 +24,13 @@ export default function TechStack() {
     ];
   
     return (
+      
+    
+      
       <div className="bg-white text-white py-10">
         <div className="container mx-auto">
+        <h1 className="text-3xl font-bold text-center py-10" style={{ color: "black" }}>Skills</h1>
+
           <div className="grid grid-cols-4 gap-4 justify-center items-center">
             {techStack.map((image, index) => (
               <div
