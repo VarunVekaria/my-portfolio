@@ -66,9 +66,12 @@ export default function About() {
           className="text-7xl font-bold mb-4 pt-20"
           style={{ color: "#F26B0F" }}
         >
-          Hey, this is Varun Vekaria!
+         Hey, this is <span className="font-bold">Varun</span>{" "}
+        <span className="font-extrabold" style={{ WebkitTextStroke: "2px #F26B0F", color: "transparent" }}>
+         Vekaria
+        </span>
         </h1>
-        <h3 className="text-2xl font-semibold mb-4">Software Developer</h3>
+        <h3 className="text-2xl font-semibold mb-4" >Software Developer</h3>
         <h4 className="text-xl font-semibold mb-4">MS CS @Rutgers University - New Brunswick</h4>
         <div
           className="text-lg leading-relaxed text-justify pt-2"
