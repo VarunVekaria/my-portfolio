@@ -28,6 +28,7 @@ export default function Navbar() {
               alt="Logo"
               className="h-8 w-auto" // Adjust height and width as needed
             />
+            <span className="px-3"> Varun <span style={{ color: "#F26B0F" }}>Vekaria</span></span>
           </div>
           {/* Hamburger Menu Button */}
           <button
