@@ -23,7 +23,7 @@ export default function Projects2() {
       techStack: ["Python", "Path Finding Algorithms", "Pygame"],
     },
     {
-      title: "RAG Project - in the works",
+      title: "RAG Project - Code Summarizer",
       image: "images/rag.png",
       github: "https://github.com/VarunVekaria/RAG-chroma-db",
       techStack: ["Vector DB", "ChromaDB", "LangChain", "OpenAI" ]
