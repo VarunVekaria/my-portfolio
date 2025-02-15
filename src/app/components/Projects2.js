@@ -25,8 +25,8 @@ export default function Projects2() {
     {
       title: "RAG Project - in the works",
       image: "images/rag.png",
-      github: "https://github.com/VarunVekaria",
-      techStack: [""]
+      github: "https://github.com/VarunVekaria/RAG-chroma-db",
+      techStack: ["Vector DB", "ChromaDB", "LangChain", "OpenAI" ]
     },
   ];
 
