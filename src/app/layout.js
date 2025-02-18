@@ -48,6 +48,7 @@ export default function RootLayout({ }) {
         <div id="publications" className="bg-blue-900 text-white">
           <Publications />
         </div>
+        <Analytics />
       </body>
     </html>
   );
