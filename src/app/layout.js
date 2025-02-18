@@ -10,6 +10,7 @@ import Publications from "./components/Publications";
 import Experience2 from "./components/Experience2";
 import Experience3 from "./components/Experience3";
 import Projects2 from "./components/Projects2";
+import { Analytics } from "@vercel/analytics/react"
 
 // Load the Poppins font
 const poppins = Poppins({
