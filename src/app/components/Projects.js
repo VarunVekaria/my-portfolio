@@ -33,7 +33,7 @@ export default function Projects() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="bg-white text-black py-10">
+    <div className="bg-white text-black pt-10">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold mb-6">Projects</h2>
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">

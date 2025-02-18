@@ -28,6 +28,12 @@ export default function Projects2() {
       github: "https://github.com/VarunVekaria/RAG-chroma-db",
       techStack: ["Vector DB", "ChromaDB", "LangChain", "OpenAI" ]
     },
+    {
+      title: "AI Agent - Daily Aggregated Bitcoin news",
+      image: "images/ai_agent.png",
+      github: "https://github.com/VarunVekaria/",
+      techStack: ["OpenAI", "AWS", "BraveAPI", "SupaBase" ]
+    },
   ];
 
   const [hoveredIndex, setHoveredIndex] = useState(null);
