@@ -34,6 +34,12 @@ export default function Projects2() {
       github: "https://github.com/VarunVekaria/",
       techStack: ["OpenAI", "AWS", "BraveAPI", "SupaBase" ]
     },
+    {
+      title: "Situational Search - Movie Finder",
+      image: "images/ai.jpg",
+      github: "https://github.com/VarunVekaria/",
+      techStack: ["In the works"]
+    },
   ];
 
   const [hoveredIndex, setHoveredIndex] = useState(null);
