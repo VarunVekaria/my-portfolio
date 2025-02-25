@@ -36,7 +36,7 @@ export default function Projects2() {
     },
     {
       title: "Situational Search - Movie Finder",
-      image: "images/ai.jpg",
+      image: "images/ai_agent.png",
       github: "https://github.com/VarunVekaria/",
       techStack: ["In the works"]
     },
