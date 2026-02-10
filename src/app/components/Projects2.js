@@ -37,6 +37,12 @@ export default function Projects2() {
       summary: "Automated pipeline that aggregates daily Bitcoin news from the web and stores structured summaries via Brave API and Supabase.",
       techStack: ["OpenAI", "AWS", "Brave API", "Supabase"],
     },
+    {
+      title: "Situational Search - Movie Finder",
+      image: "images/ai_agent.png",
+      github: "https://github.com/VarunVekaria/",
+      techStack: ["In the works"]
+    },
   ];
 
   return (
