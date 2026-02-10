@@ -7,8 +7,10 @@ import { Poppins } from 'next/font/google';
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Publications from "./components/Publications";
+import Achievements from "./components/Achievements";
 import Experience2 from "./components/Experience2";
 import Experience3 from "./components/Experience3";
+import Experience4 from "./components/Experience4";
 import Projects2 from "./components/Projects2";
 import { Analytics } from "@vercel/analytics/react"
 
@@ -30,23 +32,27 @@ export default function RootLayout({ }) {
         className={`${poppins.className} scroll-smooth`}
       >
          <Navbar />
-        <div id="about" className="bg-blue-900 text-white">
+        <div id="about" className="text-white" style={{ backgroundColor: "#1A1B26" }}>
           <About />
         </div>
-        <div id="about" className="bg-blue-900 text-white">
+        <div id="technologies" className="text-white" style={{ backgroundColor: "#1A1B26" }}>
           <TechStack />
         </div>
-        <div id="experience" className="bg-white text-black">
+        <div id="experience" className="text-white" style={{ backgroundColor: "#16171E" }}>
+          <Experience4 />
           <Experience />
           <Experience2 />
           <Experience3 />
         </div>
-        <div id="projects" className="bg-white text-black">
+        <div id="projects" className="text-white" style={{ backgroundColor: "#1A1B26" }}>
           <Projects />
           <Projects2 />
         </div>
-        <div id="publications" className="bg-blue-900 text-white">
+        <div id="publications" className="text-white" style={{ backgroundColor: "#1A1B26" }}>
           <Publications />
+        </div>
+        <div className="text-white" style={{ backgroundColor: "#1A1B26" }}>
+          <Achievements />
         </div>
         <Analytics />
       </body>
