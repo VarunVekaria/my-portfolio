@@ -16,10 +16,10 @@ export default function Navbar() {
   };
 
   const navLinks = [
+    { label: "About", id: "about" },
+    { label: "Technologies", id: "technologies" },
     { label: "Experience", id: "experience" },
     { label: "Projects", id: "projects" },
-    { label: "Technologies", id: "technologies" },
-    { label: "About", id: "about" },
     { label: "Achievements", id: "achievements" },
   ];
 

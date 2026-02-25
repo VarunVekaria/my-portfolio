@@ -39,7 +39,7 @@ export default function About() {
           <p className="text-lg text-neutral-300 leading-relaxed max-w-xl mb-8 mx-auto md:mx-0">
           A Full-Stack Developer specializing in TypeScript, React, and Node.js, building scalable, end-to-end applications on AWS. I work across the entire stack—from designing APIs and databases to cloud infrastructure and CI/CD pipelines—and enjoy transforming complex problems into clean, type-safe solutions. Driven to take on new challenges and ship impactful, production-ready products.          </p>
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1uFQoP_u3HhJ8eKg_jBvA2tdtaZwqyC1o/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-6 py-3 rounded-lg text-white font-medium text-sm transition-opacity hover:opacity-90"

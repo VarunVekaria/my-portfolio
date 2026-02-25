@@ -3,11 +3,11 @@
 export default function Projects2() {
   const projects = [
     {
-      title: "Kidney Abnormality Detection through Federated Transfer Learning",
-      image: "/images/kidney_abnormality.png",
-      github: "https://colab.research.google.com/drive/1DrGG5eagL0EBQ9QT5hS6of8QfIfG4IKF",
-      summary: "Federated learning pipeline for detecting kidney abnormalities from medical imaging while preserving data privacy across sites.",
-      techStack: ["Flwr", "Distributed Computing", "Google Colab"],
+      title: "Data Analysis of Stock Market",
+      image: "/images/stock_market_visuals.png",
+      github: "https://github.com/VarunVekaria/stockMarketvisuals",
+      summary: "Exploratory analysis and dashboards for market data using Python and Power BI, with ER modeling for structured datasets.",
+      techStack: ["PowerBI", "Python", "Excel", "ER Diagram"],
     },
     {
       title: "Bot Chase Neural Network",
@@ -37,12 +37,7 @@ export default function Projects2() {
       summary: "Automated pipeline that aggregates daily Bitcoin news from the web and stores structured summaries via Brave API and Supabase.",
       techStack: ["OpenAI", "AWS", "Brave API", "Supabase"],
     },
-    {
-      title: "Situational Search - Movie Finder",
-      image: "images/ai_agent.png",
-      github: "https://github.com/VarunVekaria/",
-      techStack: ["In the works"]
-    },
+   
   ];
 
   return (
