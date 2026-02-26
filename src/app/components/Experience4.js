@@ -1,13 +1,9 @@
 export default function Experience4() {
   return (
-    <div className="py-6">
-      <div className="container mx-auto px-4 max-w-5xl">
-      <h2 className="text-2xl font-semibold text-white mb-2 pb-4 pt-4 border-b border-white/10">Experience</h2>
-
-        <div
-          className="rounded-lg p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-6 border border-white/10 bg-white/5"
-          style={{ backgroundColor: "rgba(26, 27, 38, 0.6)" }}
-        >
+    <div
+      className="rounded-lg p-6 md:p-8 border border-white/10 bg-white/5"
+      style={{ backgroundColor: "rgba(26, 27, 38, 0.6)" }}
+    >
       
           <div>
             
@@ -31,8 +27,6 @@ export default function Experience4() {
               <li><strong className="text-neutral-200">Domain:</strong> Healthcare Data, Longitudinal Studies, Data Visualization</li>
             </ul>
           </div>
-        </div>
-      </div>
     </div>
   );
 }

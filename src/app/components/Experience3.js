@@ -1,11 +1,9 @@
 export default function Experience3() {
   return (
-    <div className="py-6 pb-12 md:pb-16">
-      <div className="container mx-auto px-4 max-w-5xl">
-        <div
-          className="rounded-lg p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-6 border border-white/10 bg-white/5"
-          style={{ backgroundColor: "rgba(26, 27, 38, 0.6)" }}
-        >
+    <div
+      className="rounded-lg p-6 md:p-8 border border-white/10 bg-white/5"
+      style={{ backgroundColor: "rgba(26, 27, 38, 0.6)" }}
+    >
           <div>
             <h3 className="text-lg font-bold text-white mb-2">
               Front-end & Design Developer — UNICODE
@@ -24,8 +22,6 @@ export default function Experience3() {
               <li><strong className="text-neutral-200">Other:</strong> GitHub, Agile Methodologies, Wireframing, Prototyping, User Research</li>
             </ul>
           </div>
-        </div>
-      </div>
     </div>
   );
 }

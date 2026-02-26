@@ -38,11 +38,20 @@ export default function RootLayout({ }) {
         <div id="technologies" className="text-white" style={{ backgroundColor: "#1A1B26" }}>
           <TechStack />
         </div>
-        <div id="experience" className="text-white" style={{ backgroundColor: "#16171E" }}>
-          <Experience4 />
-          <Experience />
-          <Experience2 />
-          <Experience3 />
+        <div id="experience" className="text-white py-12 md:py-16" style={{ backgroundColor: "#16171E" }}>
+          <div className="container mx-auto px-4 max-w-6xl">
+            <h2 className="text-2xl font-semibold text-white mb-2">Experience</h2>
+            <div
+              className="h-0.5 w-16 mb-8 rounded-full"
+              style={{ background: "linear-gradient(90deg, #8B5CF6 0%, #38BDF8 100%)" }}
+            />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Experience />
+              <Experience4 />
+              <Experience2 />
+              <Experience3 />
+            </div>
+          </div>
         </div>
         <div id="projects" className="text-white" style={{ backgroundColor: "#1A1B26" }}>
           <Projects />

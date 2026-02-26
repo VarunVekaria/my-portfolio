@@ -1,12 +1,9 @@
 export default function Experience() {
   return (
-    <div className="py-12 md:py-16">
-      <div className="container mx-auto px-4 max-w-5xl">
-        
-        <div
-          className="rounded-lg p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-6 border border-white/10 bg-white/5 backdrop-blur-sm"
-          style={{ backgroundColor: "rgba(26, 27, 38, 0.6)" }}
-        >
+    <div
+      className="rounded-lg p-6 md:p-8 border border-white/10 bg-white/5 backdrop-blur-sm"
+      style={{ backgroundColor: "rgba(26, 27, 38, 0.6)" }}
+    >
           <div>
             <h3 className="text-lg font-bold text-white mb-2">
               Full Stack Developer — STUDYPAQ, SAN FRANCISCO (Remote)
@@ -40,8 +37,6 @@ export default function Experience() {
               <li><strong className="text-neutral-200">Other:</strong> Software Development Life Cycle, Git</li>
             </ul>
           </div>
-        </div>
-      </div>
     </div>
   );
 }
