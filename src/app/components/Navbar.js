@@ -4,6 +4,7 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const videofolioUrl = "https://videofolio-varun-vekaria.vercel.app/";
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -70,6 +71,15 @@ export default function Navbar() {
               {label}
             </button>
           ))}
+          <a
+            href={videofolioUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsOpen(false)}
+            className="text-left md:text-center text-neutral-400 hover:text-white text-sm py-2 md:py-0 transition-colors"
+          >
+            Videofolio
+          </a>
           <div className="flex gap-4 pt-2 md:pt-0 md:pl-4 md:border-l border-neutral-700">
             <a
               href="https://github.com/VarunVekaria"

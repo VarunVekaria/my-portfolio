@@ -52,17 +52,30 @@ Best,
           <p className="text-lg text-neutral-300 leading-relaxed max-w-xl mb-8 mx-auto md:mx-0">
           A Full-Stack Developer specializing in TypeScript, React, and Node.js, building scalable, end-to-end applications on AWS. I work across the entire stack—from designing APIs and databases to cloud infrastructure and CI/CD pipelines—and enjoy transforming complex problems into clean, type-safe solutions. Driven to take on new challenges and ship impactful, production-ready products.          </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a
-              href="https://drive.google.com/file/d/1uFQoP_u3HhJ8eKg_jBvA2tdtaZwqyC1o/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-lg text-white font-medium text-sm transition-opacity hover:opacity-90"
-              style={{
-                background: "linear-gradient(90deg, #8B5CF6 0%, #38BDF8 100%)",
-              }}
-            >
-              Resume
-            </a>
+            <div className="flex flex-col gap-4">
+              <a
+                href="https://drive.google.com/file/d/1uFQoP_u3HhJ8eKg_jBvA2tdtaZwqyC1o/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-lg text-white font-medium text-sm transition-opacity hover:opacity-90"
+                style={{
+                  background: "linear-gradient(90deg, #8B5CF6 0%, #38BDF8 100%)",
+                }}
+              >
+                Resume
+              </a>
+              <a
+                href="https://videofolio-varun-vekaria.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-lg text-white font-medium text-sm transition-opacity hover:opacity-90"
+                style={{
+                  background: "linear-gradient(90deg, #8B5CF6 0%, #38BDF8 100%)",
+                }}
+              >
+                Videofolio
+              </a>
+            </div>
             <a
               href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`}
               target="_blank"
