@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="A hierarchical document tree with one branch highlighted, representing agent-navigated retrieval">
+  <defs>
+    <linearGradient id="secBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151622"/>
+      <stop offset="1" stop-color="#1C1E2D"/>
+    </linearGradient>
+    <linearGradient id="secAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="secGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="secGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#secBg)"/>
+  <rect width="800" height="500" fill="url(#secGrid)"/>
+  <ellipse cx="640" cy="150" rx="230" ry="190" fill="url(#secGlow)"/>
+
+  <!-- filing label -->
+  <g transform="translate(56,52)">
+    <rect width="92" height="26" rx="6" fill="rgba(139,92,246,0.16)" stroke="rgba(139,92,246,0.45)"/>
+    <text x="46" y="18" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" fill="#C4B5FD" letter-spacing="1">10-K</text>
+  </g>
+
+  <!-- edges: root -> level 1 -->
+  <g fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="2">
+    <path d="M182 250 C 250 250, 250 128, 318 128"/>
+    <path d="M182 250 C 250 250, 250 372, 318 372"/>
+  </g>
+  <!-- highlighted traversal path -->
+  <path d="M182 250 C 250 250, 250 250, 318 250" fill="none" stroke="url(#secAccent)" stroke-width="3"/>
+  <path d="M382 250 C 452 250, 452 196, 522 196" fill="none" stroke="url(#secAccent)" stroke-width="3"/>
+  <!-- edges: level 1 -> level 2 (dim) -->
+  <g fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="2">
+    <path d="M382 128 C 452 128, 452 84, 522 84"/>
+    <path d="M382 250 C 452 250, 452 306, 522 306"/>
+    <path d="M382 372 C 452 372, 452 416, 522 416"/>
+  </g>
+
+  <!-- root node -->
+  <g>
+    <rect x="118" y="222" width="64" height="56" rx="10" fill="rgba(139,92,246,0.18)" stroke="url(#secAccent)" stroke-width="2"/>
+    <g stroke="#C4B5FD" stroke-width="2" stroke-linecap="round" opacity="0.9">
+      <path d="M134 240h32"/><path d="M134 250h32"/><path d="M134 260h20"/>
+    </g>
+  </g>
+
+  <!-- level 1 nodes -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">
+    <g opacity="0.55">
+      <rect x="318" y="106" width="64" height="44" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)"/>
+      <text x="350" y="133" text-anchor="middle" fill="#9CA3AF">Item 1</text>
+    </g>
+    <g>
+      <rect x="318" y="228" width="64" height="44" rx="8" fill="rgba(139,92,246,0.20)" stroke="url(#secAccent)" stroke-width="2"/>
+      <text x="350" y="255" text-anchor="middle" fill="#DDD6FE">Item 1A</text>
+    </g>
+    <g opacity="0.55">
+      <rect x="318" y="350" width="64" height="44" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)"/>
+      <text x="350" y="377" text-anchor="middle" fill="#9CA3AF">Item 7</text>
+    </g>
+  </g>
+
+  <!-- level 2 leaves -->
+  <g>
+    <g opacity="0.4">
+      <rect x="522" y="64" width="150" height="40" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.13)"/>
+      <g stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-linecap="round">
+        <path d="M540 78h84"/><path d="M540 90h56"/>
+      </g>
+    </g>
+    <!-- the hit -->
+    <g>
+      <rect x="522" y="172" width="196" height="48" rx="8" fill="rgba(56,189,248,0.14)" stroke="#38BDF8" stroke-width="2"/>
+      <g stroke="#7DD3FC" stroke-width="2" stroke-linecap="round">
+        <path d="M540 190h120"/><path d="M540 204h84"/>
+      </g>
+      <circle cx="694" cy="196" r="12" fill="#38BDF8"/>
+      <path d="M689 196l4 4 7-8" fill="none" stroke="#0B1220" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g opacity="0.4">
+      <rect x="522" y="286" width="150" height="40" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.13)"/>
+      <g stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-linecap="round">
+        <path d="M540 300h84"/><path d="M540 312h56"/>
+      </g>
+    </g>
+    <g opacity="0.4">
+      <rect x="522" y="396" width="150" height="40" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.13)"/>
+      <g stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-linecap="round">
+        <path d="M540 410h84"/><path d="M540 422h56"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- caption -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13">
+    <text x="56" y="452" fill="#6B7280">no vector db</text>
+    <text x="188" y="452" fill="#4B5563">·</text>
+    <text x="206" y="452" fill="#6B7280">agent navigates the tree</text>
+  </g>
+</svg>
