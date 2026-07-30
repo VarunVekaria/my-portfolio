@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="A memory graph of connected nodes feeding a central agent that compares multiple language models">
+  <defs>
+    <linearGradient id="omBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151622"/>
+      <stop offset="1" stop-color="#1C1E2D"/>
+    </linearGradient>
+    <linearGradient id="omAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="omGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="omGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#omBg)"/>
+  <rect width="800" height="500" fill="url(#omGrid)"/>
+  <ellipse cx="290" cy="250" rx="230" ry="210" fill="url(#omGlow)"/>
+
+  <text x="56" y="66" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" fill="#6B7280" letter-spacing="1.5">MEMORY GRAPH</text>
+
+  <!-- graph edges -->
+  <g stroke="rgba(255,255,255,0.16)" stroke-width="2" fill="none">
+    <path d="M124 148L246 118"/>
+    <path d="M124 148L188 246"/>
+    <path d="M246 118L332 200"/>
+    <path d="M188 246L332 200"/>
+    <path d="M188 246L154 356"/>
+    <path d="M154 356L286 372"/>
+    <path d="M286 372L332 200"/>
+    <path d="M246 118L332 200"/>
+  </g>
+  <!-- active edges into the agent -->
+  <g stroke="url(#omAccent)" stroke-width="2.5" fill="none">
+    <path d="M332 200L452 232"/>
+    <path d="M286 372L452 268"/>
+  </g>
+
+  <!-- graph nodes -->
+  <g>
+    <circle cx="124" cy="148" r="13" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.28)" stroke-width="2"/>
+    <circle cx="246" cy="118" r="10" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.28)" stroke-width="2"/>
+    <circle cx="188" cy="246" r="15" fill="rgba(139,92,246,0.24)" stroke="#8B5CF6" stroke-width="2"/>
+    <circle cx="154" cy="356" r="10" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.28)" stroke-width="2"/>
+    <circle cx="286" cy="372" r="13" fill="rgba(56,189,248,0.20)" stroke="#38BDF8" stroke-width="2"/>
+    <circle cx="332" cy="200" r="16" fill="rgba(139,92,246,0.28)" stroke="#A78BFA" stroke-width="2"/>
+  </g>
+
+  <!-- agent core -->
+  <g>
+    <rect x="452" y="204" width="96" height="92" rx="18" fill="rgba(139,92,246,0.16)" stroke="url(#omAccent)" stroke-width="2.5"/>
+    <g stroke="#DDD6FE" stroke-width="2.2" stroke-linecap="round" fill="none">
+      <rect x="478" y="234" width="44" height="34" rx="9"/>
+      <path d="M500 226v8"/>
+      <circle cx="500" cy="222" r="3.5" fill="#DDD6FE" stroke="none"/>
+      <path d="M470 246v10M530 246v10"/>
+    </g>
+    <circle cx="490" cy="251" r="3" fill="#38BDF8" stroke="none"/>
+    <circle cx="510" cy="251" r="3" fill="#38BDF8" stroke="none"/>
+  </g>
+
+  <!-- fan out to models -->
+  <g stroke="rgba(255,255,255,0.18)" stroke-width="2" fill="none">
+    <path d="M548 250 C 590 250, 590 140, 632 140"/>
+    <path d="M548 250 C 590 250, 590 250, 632 250"/>
+    <path d="M548 250 C 590 250, 590 360, 632 360"/>
+  </g>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">
+    <g>
+      <rect x="632" y="118" width="112" height="44" rx="9" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)"/>
+      <text x="688" y="145" text-anchor="middle" fill="#9CA3AF">OpenAI</text>
+    </g>
+    <g>
+      <rect x="632" y="228" width="112" height="44" rx="9" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)"/>
+      <text x="688" y="255" text-anchor="middle" fill="#9CA3AF">Claude</text>
+    </g>
+    <g>
+      <rect x="632" y="338" width="112" height="44" rx="9" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)"/>
+      <text x="688" y="365" text-anchor="middle" fill="#9CA3AF">Gemini</text>
+    </g>
+  </g>
+
+  <!-- bias readout -->
+  <g transform="translate(56,428)">
+    <text y="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" fill="#6B7280">response bias</text>
+    <rect x="128" y="3" width="220" height="12" rx="6" fill="rgba(255,255,255,0.08)"/>
+    <rect x="128" y="3" width="110" height="12" rx="6" fill="url(#omAccent)"/>
+    <text x="364" y="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" fill="#7DD3FC">−50%</text>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="A recorded voice waveform cloned into a second language, shown as two waveforms linked by a voice-clone step">
+  <defs>
+    <linearGradient id="laBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151622"/>
+      <stop offset="1" stop-color="#1C1E2D"/>
+    </linearGradient>
+    <linearGradient id="laAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="laGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="laGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#laBg)"/>
+  <rect width="800" height="500" fill="url(#laGrid)"/>
+  <ellipse cx="560" cy="360" rx="250" ry="190" fill="url(#laGlow)"/>
+
+  <!-- source voice -->
+  <g>
+    <g transform="translate(56,52)">
+      <rect width="132" height="26" rx="13" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+      <text x="66" y="18" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#9CA3AF">your voice · EN</text>
+    </g>
+    <g stroke="rgba(255,255,255,0.28)" stroke-width="7" stroke-linecap="round">
+      <path d="M72 148v20"/><path d="M100 134v48"/><path d="M128 118v80"/><path d="M156 140v36"/>
+      <path d="M184 110v96"/><path d="M212 130v56"/><path d="M240 122v72"/><path d="M268 144v28"/>
+      <path d="M296 116v84"/><path d="M324 136v44"/><path d="M352 126v64"/><path d="M380 146v24"/>
+      <path d="M408 132v52"/><path d="M436 120v76"/><path d="M464 142v32"/><path d="M492 128v60"/>
+      <path d="M520 138v40"/><path d="M548 124v68"/><path d="M576 146v24"/><path d="M604 134v48"/>
+      <path d="M632 118v80"/><path d="M660 140v36"/><path d="M688 130v56"/><path d="M716 148v20"/>
+    </g>
+  </g>
+
+  <!-- clone step -->
+  <g transform="translate(288,232)">
+    <rect width="224" height="44" rx="22" fill="rgba(139,92,246,0.16)" stroke="url(#laAccent)" stroke-width="1.5"/>
+    <g transform="translate(24,11)" stroke="#DDD6FE" stroke-width="2" fill="none" stroke-linecap="round">
+      <rect x="4" y="2" width="10" height="14" rx="5"/>
+      <path d="M0 12a9 9 0 0018 0"/>
+      <path d="M9 18v4"/>
+    </g>
+    <text x="128" y="28" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" fill="#DDD6FE">voice clone</text>
+  </g>
+  <g stroke="rgba(255,255,255,0.16)" stroke-width="2" fill="none">
+    <path d="M400 214v18"/>
+    <path d="M400 276v18"/>
+  </g>
+  <path d="M392 286l8 9 8-9" fill="none" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- cloned output -->
+  <g>
+    <g stroke="url(#laAccent)" stroke-width="7" stroke-linecap="round">
+      <path d="M72 344v24"/><path d="M100 326v60"/><path d="M128 356v20"/><path d="M156 314v84"/>
+      <path d="M184 338v32"/><path d="M212 320v72"/><path d="M240 348v24"/><path d="M268 310v92"/>
+      <path d="M296 336v40"/><path d="M324 322v68"/><path d="M352 350v20"/><path d="M380 316v80"/>
+      <path d="M408 340v32"/><path d="M436 324v64"/><path d="M464 346v24"/><path d="M492 312v88"/>
+      <path d="M520 334v44"/><path d="M548 328v56"/><path d="M576 352v20"/><path d="M604 318v76"/>
+      <path d="M632 342v28"/><path d="M660 326v60"/><path d="M688 350v20"/><path d="M716 336v40"/>
+    </g>
+    <g transform="translate(56,428)">
+      <rect width="176" height="28" rx="14" fill="rgba(56,189,248,0.14)" stroke="rgba(56,189,248,0.5)"/>
+      <text x="88" y="19" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#7DD3FC">same voice · ES · FR · JP</text>
+    </g>
+  </g>
+</svg>
