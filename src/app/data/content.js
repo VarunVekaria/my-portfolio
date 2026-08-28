@@ -17,7 +17,7 @@ Best,
 
 `,
   resume:
-    "https://drive.google.com/file/d/1uFQoP_u3HhJ8eKg_jBvA2tdtaZwqyC1o/view?usp=sharing",
+    "https://drive.google.com/file/d/1Tucp0kpxdVOdVI2-cn3XXp5Hfv4fDpgx/view?usp=sharing",
   videofolio: "https://videofolio-varun-vekaria.vercel.app/",
   github: "https://github.com/VarunVekaria",
   linkedin: "https://www.linkedin.com/in/varun-vekaria-a5836a1b2/",
