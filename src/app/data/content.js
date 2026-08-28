@@ -28,7 +28,7 @@ Best,
 };
 
 export const stats = [
-  { value: "98.7%", label: "FinanceBench accuracy", sub: "SEC agentic-RAG engine" },
+  { value: "92.7%", label: "FinanceBench accuracy", sub: "SEC agentic-RAG engine" },
   { value: "13", label: "MCP tools shipped", sub: "FastMCP, live on Fly.io" },
   { value: "3", label: "Peer-reviewed papers", sub: "IEEE · ScienceDirect" },
   { value: "5,200+", label: "Students, 1 award", sub: "Outstanding Master's Student" },
